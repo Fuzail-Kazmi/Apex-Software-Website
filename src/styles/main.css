@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("layouts/layouts.css");
+@import url("utils.css");
+@import url("components.css");
+@import url("form.css");
+
+
+
+
+:root {
+    --text-xs: .75rem;
+    --text-sm: .875rem;
+    --text-md: .9rem;
+    --text-lg: 1rem;
+    --text-xl: 1.15rem;
+    --text-xxl: 1.75rem;
+    --text-3xl: 2rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 2.5rem;
+
+
+    --color-primary: #a2333b;
+}
+
+/* bg-color-dark #131426 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-family: "Outfit", serif;
+    color: #464646;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.app-container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+body {
+    /* background-color: #f7f7f7; */
+}
+
+.pg-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.pg-section {
+    padding-block: 4rem;
+    padding-inline: 1rem;
+}
+
+/*  */
+.pg--home-page {
+    /* padding-block: 4rem; */
+    /* color: #FFF; */
+    /* min-height: ; */
+    /* background-color: #131426; */
+    /* background-image: url("https://diffco.us/wp-content/themes/diffconew/static-template/build/images/service/frontend/top-desc-bg@2x.jpg");
+    background-size: cover; */
+}
+
+.home-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-content {
+    padding-top: 2rem;
+    max-width: 600px;
+}
+
+.home-cover-image img {
+    max-width: 20rem;
+}
+
+.pg--home-page .pg-heading {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Contact page */
+.pg--contact-page {
+    background-color: #a2333b17;
+    /* background-color: #a2333b; */
+    /* background-color: #a2333a31; */
+}
+
+/* .pg--contact-page .widget-field.input input {
+    border-color: #FFF;
+    color: #FFF;
+    outline-color: #c8c8c8;
+}
+
+.pg--contact-page .widget-label {
+    color: #FFF;
+} */
+
+.pg--contact-page .pg-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pg--contact-page .text-content {
+    max-width: 500px;
+}
+
+.contact-form {
+    max-width: 40rem;
+    /* border: 1px solid; */
+}
+
+.how-we-build__container {
+    max-width: 700px;
+    margin-top: 2rem;
+}
+
+.how-we-build__collapsable {
+    border-top: 1px dashed #c6b9a4;
+    padding-block: 2rem;
+}
+
+.how-we-build__collapsable .content {
+    display: flex;
+    gap: 1rem;
+}
+
+.how-we-build__collapsable .content .left {
+    flex-shrink: 0;
+}
+
+.how-we-build__collapsable .content .left img {
+    width: 40px;
+    height: 40px;
+}
+
+.how-we-build__process .row {
+    gap: 1rem;
+
+}
+
+
+.process {
+    flex-basis: 100%;
+    border-radius: .35rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: #ffe6e6;
+    margin-bottom: .5rem;
+}
+
+.how-we-build__process {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.service-card {
+    border-radius: .35rem;
+    padding: 1rem;
+    box-shadow: 0 0 2px #c0c0c0;
+}
+
+.service-card .left {
+    flex-basis: 40%;
+}
+
+.service-card .right img {
+    max-width: 6rem;
+}
+
+.pg-stack-container {
+    max-width: 60rem;
+    margin-inline: auto;
+}
